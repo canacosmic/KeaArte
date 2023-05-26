@@ -1,0 +1,109 @@
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+
+    /* Apply specific styles for mobile screens */
+    body {
+        background-image: url('../Inicio/fondo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 10%;
+
+
+
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .menu button {
+        width: calc(75px + 20px * var(--button-index));
+        height: calc(75px + 20px * var(--button-index));
+        margin-bottom: 30px;
+        /* espacio entre los botones */
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu button i {
+        font-size: calc(25px + 5px * var(--button-index));
+    }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Apply specific styles for tablets */
+    body {
+        background-image: url('../Inicio/fondo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 48px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu button {
+        width: 100px;
+        height: calc(100px - 10px * var(--button-index));
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        border: none;
+    }
+}
+
+/* Styles for desktop screens */
+@media (min-width: 1024px) {
+
+    /* Apply specific styles for desktop screens */
+    body {
+        background-image: url('../Inicio/fondo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 48px;
+        margin-top: 50%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu button {
+        width: calc(10px - 100px * var(--button-index));
+        height: calc(100px - 10px * var(--button-index));
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        border: none;
+    }
+}

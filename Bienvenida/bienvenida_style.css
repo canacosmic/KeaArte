@@ -1,0 +1,69 @@
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+
+    /* Apply specific styles for mobile screens */
+    body {
+        background-image: url('../Bienvenida/welcome-image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 72px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        /* Cambia el cursor a una mano al pasar sobre el texto */
+    }
+
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Apply specific styles for tablets */
+    body {
+        background-image: url('../Bienvenida/welcome-image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 72px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        /* Cambia el cursor a una mano al pasar sobre el texto */
+    }
+}
+
+/* Styles for desktop screens */
+@media (min-width: 1024px) {
+
+    /* Apply specific styles for desktop screens */
+    body {
+        background-image: url('../Bienvenida/welcome-image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 72px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        /* Cambia el cursor a una mano al pasar sobre el texto */
+    }
+}
